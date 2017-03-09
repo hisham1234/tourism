@@ -1,0 +1,153 @@
+﻿body {
+    background-position: 50% 50%;
+    margin:0px;
+    padding:0px !important;
+    height:100%;
+  
+}
+
+.container{
+height:500px;
+width:100%;
+margin-right:auto;
+margin-left:auto;
+clear:both;
+}
+
+.container .item img{
+height:550px;
+width:100%;
+margin-right:auto;
+margin-left:auto;
+
+}
+
+
+.main-text
+{  
+    width:50%;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height:350px;
+    color: #FFF;
+    font-family:Tahoma;
+   
+
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    background:rgba(255,255,255,0.30);
+    color: white;
+    border-color: #FFF;
+    margin-right: 15px;
+    font-size:19px;
+   
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: rgba(255,255,255,0.70);
+}
+
+
+  .image{
+      
+   width: 100%;
+   height: 550px;
+}
+ 
+ .carousel {
+    position:absolute;
+    top:0;
+    
+}
+.navbar {
+    position:absolute;
+    top:30px;
+    background:transparent;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    background:rgba(255,255,255,0.60);
+   
+    font-size:19px;
+    border-color: transparent;
+    border:none;
+ 
+}
+
+#navbar ul li {
+font-family:Tahoma;
+
+}
+#navbar ul li a {
+  color:black;
+  
+}
+
+#navbar li:hover{
+    color: #000;
+    background-color: rgba(255,255,255,0.80);
+       
+}
+
+
+
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+
+
+
+.head h1,
+.head h2{
+	font-weight:600;
+	text-transform:uppercase;
+	position:relative;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 1px;
+	margin-left: 0;
+	padding-top: 30px;
+}
+
+.head p {
+    font-size:16px;
+	text-align: center;
+	padding:0 0 10px;
+	margin-bottom:0;
+	color:#262626;
+}
+
+
+.button{
+   
+   
+    border-radius: 5px;
+    font-size:22px;
+    padding-bottom: 10px;
+    padding-top:10px; 
+    width: 140px;
+    height: 40px; 
+    font-family:Tahoma;
+    }
+
+.box{
+    
+     background-color: rgba(250,250,250,0.25);
+     padding-top:20px;
+     padding-left:20px;
+     padding-bottom:20px;
+     padding-right:20px;
+     width:50%;
+     height:50%;
+     margin: 0 auto;
+}
